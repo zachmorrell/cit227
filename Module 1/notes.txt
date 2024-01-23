@@ -1,0 +1,9 @@
+So, this may or may not be the third time I am doing this assignment.
+It all started with main, then master..
+So I got confused and made all the changes to master.
+Main is my github default, so I redid it.
+
+I forgot to do no-commit for commit 4 and pushed it with adding a meesage to the push.
+That was wrong, I think had to git reset --hard on the previous hash, then git push --force to remove what was suppose to be commit 4 but was labeled commit 3.
+
+here I am on the third time and I hope this doesn't happen again.
