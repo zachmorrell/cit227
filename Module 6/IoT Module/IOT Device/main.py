@@ -39,7 +39,7 @@ def main():
         # Publish's data to broker.
         global temp, hum, target_temp
         # Retrieve temp and humidity from stat.
-        temp, hum = sensors.print_stats()-
+        temp, hum = sensors.print_stats()
         light_percent = photo_cell.get_light()
         # Publish temp and hum to the broker.
         mqtt.publish_topic(f"temperature: {temp}, humidity: {hum}, set_point: {target_temp}, light_percent: {light_percent}")
